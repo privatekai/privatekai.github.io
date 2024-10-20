@@ -1,0 +1,78 @@
+.contact {
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.line {
+  transform: translateY(-0.3em);
+  width: 100%;
+  height: 100%;
+}
+
+.lineContainer {
+  aspect-ratio: 134 / 8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  filter: invert();
+}
+
+.info {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  height: calc(calc(50vh - 6rem) - 40px);
+}
+
+.info > div {
+  transition-duration: 0.5s !important;
+}
+
+.infoItem {
+  width: 100%;
+  display: flex;
+  gap: 0.4em;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.infoItem p {
+  margin: 0;
+}
+
+.infoItem:hover {
+  text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.6);
+  transition-duration: 0.2s;
+}
+
+.infoItem:not(:last-child) {
+  margin-bottom: 1rem;
+}

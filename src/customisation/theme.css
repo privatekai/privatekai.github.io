@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap");
+
+/* Theme colors which apply to the whole page */
+
+:root {
+  /* Primary color used for main elements like buttons, links, etc. */
+  --color-primary: #3640ed;
+
+  /* Secondary color used for accents and highlights */
+  --color-secondary: #1ce865;
+
+  /* Background color for the entire page */
+  --color-bg: #040607;
+
+  /* Background color for cards */
+  --color-elevated: #161832;
+
+  /* Main text color */
+  --color-text: #ffcbcb;
+
+  /* Shadow color for cards */
+  --shadow-color: #2e0000;
+
+  /* Text color specifically for card elements */
+  --color-text-card: white;
+
+  /* Font family used throughout the page */
+  --font-family: JetBrains Mono, monospace;
+
+  /* Background image for the page. The background image should be placed under /public */
+  --background-image: url("/background.svg");
+}

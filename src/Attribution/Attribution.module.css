@@ -1,0 +1,50 @@
+@keyframes textGradient {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 50% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.attributionContainer {
+  text-align: center;
+}
+
+.attribution {
+  text-align: center;
+  opacity: 0.3;
+  font-size: 0.8rem;
+  flex-grow: 0;
+  width: fit-content;
+  padding: 2em;
+}
+
+.attribution > a {
+  color: inherit !important;
+  text-decoration: underline;
+  font-weight: 800;
+  background-image: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  background-size: 400% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.attribution:hover {
+  opacity: 1;
+}
+
+.attribution:hover > a {
+  opacity: 1 !important;
+  -webkit-text-fill-color: transparent;
+  color: var(--color-primary) !important;
+}
+
+.attribution > a:hover {
+  text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.5);
+  animation: textGradient 1s ease infinite alternate;
+  transition-duration: 0.2s;
+}

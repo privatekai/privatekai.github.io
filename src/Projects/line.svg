@@ -1,0 +1,7 @@
+<svg width="150" height="11" viewBox="0 0 150 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="gradient">
+    <stop id="stop1" offset="0%" stop-color="var(--color-primary)" />
+    <stop id="stop2" offset="100%" stop-color="var(--color-secondary)" />
+  </linearGradient>
+  <path vector-effect="non-scaling-stroke" d="M2 2C11.0114 2 20.1798 1.43577 29.1667 2.05556C36.5074 2.56181 42.8743 4.41641 50.3889 3.5C64.7122 1.75326 78.9221 3.66844 92.5556 7.33333C99.7273 9.26123 107.687 7.53051 115.056 8.5C122.853 9.52597 129.181 8.41432 136.667 6.11111C140.415 4.95766 144.081 3 148 3" stroke="url(#gradient)" stroke-width="3" stroke-linecap="round" />
+</svg>

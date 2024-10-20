@@ -1,0 +1,49 @@
+.projects {
+  margin-top: 2rem;
+  min-height: calc(100vh - 4rem - 40px);
+}
+
+.titleWrapper {
+  text-align: center;
+}
+
+.title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.line {
+  transform: translateY(-0.3em);
+  width: 100%;
+  height: 100%;
+}
+
+.lineContainer {
+  aspect-ratio: 549 / 54;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  overflow-x: auto;
+  overflow-y: visible;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 3rem 2rem 2rem 2rem;
+}
+
+.info {
+  text-align: center;
+  background-color: var(--color-bg);
+  padding: 0.5em;
+}
+
+.help {
+  font-size: 0.8rem;
+  color: #999;
+}

@@ -1,0 +1,19 @@
+<svg width="54.7" height="5.2" viewBox="0 0 547 52" fill="none" xmlns="http://www.w3.org/2000/svg" id="line">
+  <style>
+    #line {
+      stroke-dasharray: 560;
+      stroke-dashoffset: 560;
+      animation: sign .5s ease forwards;
+    }
+    @keyframes sign {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <linearGradient id="gradient">
+    <stop id="stop1" offset="0%" stop-color="var(--color-primary)" />
+    <stop id="stop2" offset="100%" stop-color="var(--color-secondary)" />
+  </linearGradient>
+  <path vector-effect="non-scaling-stroke" d="M5.51477 23.737C5.51477 18.3298 49.4375 12.0763 53.271 11.5638C79.2811 8.08655 102.141 11.688 127.246 17.4498C134.697 19.1596 142.395 18.8952 149.987 18.9212C167.243 18.9803 184.501 18.9629 201.757 18.9212C223.535 18.8686 246.78 14.8667 268.375 18.5199C282.322 20.8795 295.909 25.0011 308.907 30.5593C320.063 35.3299 331.369 43.2091 343.286 45.943C352.4 48.0337 362.809 38.9448 369.773 34.5724C379.155 28.6824 387.964 22.233 396.795 15.577C413.834 2.73415 433.749 4.98857 454.049 7.81825C483.404 11.9102 511.701 20.6852 541.267 22.5331" stroke="url(#gradient)" stroke-width="3" stroke-linecap="round" />
+</svg>

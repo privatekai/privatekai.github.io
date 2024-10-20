@@ -1,0 +1,13 @@
+.app {
+  width: min(85%, 1000px);
+  padding-left: calc(50% - min(42.5%, 500px));
+  padding-right: calc(50% - min(42.5%, 500px));
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding-top: 2rem;
+  background-position: center;
+  background-size: cover;
+  background-image: var(--background-image);
+}
