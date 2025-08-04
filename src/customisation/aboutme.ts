@@ -6,10 +6,10 @@
 export const hello = "Hello. I'm"
 
 // The name to be displayed with an underline
-export const name = "John Smith"
+export const name = "Rukaiya K"
 
 // The main description
-export const greeting = "Welcome to my website"
+export const greeting = "But you can call me Kai :)"
 
 // Whether to show the wave animation
 export const showWave = true

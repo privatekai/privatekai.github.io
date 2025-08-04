@@ -10,16 +10,16 @@ export default function Projects() {
     <div className={projectStyles.projects}>
       <div className={projectStyles.titleWrapper}>
         <h1 className={projectStyles.title}>
-          <span>Projects</span>
+          <span>What have I been up to?</span>
           <div className={projectStyles.lineContainer}>
             <Line className={projectStyles.line} />
           </div>
         </h1>
       </div>
       <p className={projectStyles.info}>
-        Here are some of the projects I've worked on.
+        Here are some examples of my work.
         <br />
-        <span className={projectStyles.help}>(Click on a project's title to open it)</span>
+        <span className={projectStyles.help}>(Click on a card to open its link)</span>
       </p>
       <div className={projectStyles.cards}>
         {projectsList.map((project, i) => (

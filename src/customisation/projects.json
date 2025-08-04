@@ -1,62 +1,62 @@
 [
   {
-    "name": "My project 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi earum ex expedita, fuga fugit hic id iste laboriosam magnam maiores minima molestias non quas quasi quo recusandae reiciendis repudiandae saepe.",
-    "date": "Jan 2024",
+    "name": "SWE Intern @ Redgate",
+    "description": "At Redgate Software, I worked as a Software Engineer Intern, joining Team Polymon to work on the Redgate Monitor product. Here I gained valuable professional experience in software development, and learned how to navigate a large legacy codebase, especially when debugging and solving user stories.",
+    "date": "Jun-Sep 2025",
     "tags": [
-      "Tag1",
-      "Tag2",
-      "Tag3"
+      "Internship",
+      "Software Engineering",
+      "DevOps"
     ],
-    "url": "https://example.com/1",
-    "image": "image1.jpg"
+    "url": "https://www.red-gate.com/",
+    "image": "redgate.png"
   },
   {
-    "name": "My project 2",
-    "description": "Tempora ullam? Accusamus atque corporis cum, debitis deleniti dolore ea earum ex expedita fugit harum illum ipsum maiores nemo nostrum, officia omnis praesentium provident quas quidem quis quisquam quo rerum.",
-    "date": "Feb 2024",
+    "name": "PintOS",
+    "description": "At Imperial College London, I worked on a group project, creating a simple operating system called PintOS. This project involved implementing various components of the OS, such as process management, file systems, and virtual memory. ",
+    "date": "Oct-Dec 2024",
     "tags": [
-      "Tag4",
-      "Tag5",
-      "Tag6"
+      "Operating Systems",
+      "C",
+      "Coursework"
     ],
-    "url": "https://example.com/2",
-    "image": "image2.jpg"
+    "url": "https://www.imperial.ac.uk/computing/current-students/course-admin/noticeboards/second-year/labs/os-lab-project/",
+    "image": "ic_labs.jpg"
   },
   {
-    "name": "My project 3",
-    "description": "Totam ut veniam voluptatibus? Amet corporis excepturi fugiat neque odit quos reprehenderit sit. Accusantium aperiam at repellendus sunt tempore! A alias amet at autem beatae distinctio eaque earum enim error.",
-    "date": "Mar 2024",
+    "name": "Sustainapod",
+    "description": "As Website Development Lead at Sustainapod, I worked closely with the team and founders to create a website that showcases our mission to promote sustainability and environmental awareness, bringing youth into the green sector. As part of this I particicpated in the Climate Pre-Accelerator Program at Imperial in 2024.",
+    "date": "Oct 2023 - Present",
     "tags": [
-      "Tag7",
-      "Tag8",
-      "Tag9"
+      "Web Development",
+      "Sustainability",
+      "Startup"
     ],
-    "url": "https://example.com/3",
-    "image": "image3.jpg"
+    "url": "https://www.sustainapod.co.uk/",
+    "image": "sustainapod.jpg"
   },
   {
-    "name": "My project 4",
-    "description": "Esse et eum exercitationem hic maiores mollitia, nam nemo nihil nisi perspiciatis quaerat quis rem repudiandae saepe sint sunt tempore ullam vero. Amet delectus doloremque dolores doloribus error facilis fugit.",
-    "date": "Apr 2024",
+    "name": "Dancelot",
+    "description": "During the summer of 2024, I worked with Sani Abubakar to create a website application using NodeJS, NextJS and Python scripts to allow users to follow along to YouTube dance videos and get scores, similar to Just Dance. This is achieved via MediaPipe's pose landmark detection models, where the landmarks are detected in real-time as well as for the video that the user provides.",
+    "date": "Jul-Sep 2024",
     "tags": [
-      "Tag10",
-      "Tag11",
-      "Tag12"
+      "Web Development",
+      "Computer Vision",
+      "MediaPipe"
     ],
-    "url": "https://example.com/4",
-    "image": "image4.jpg"
+    "url": "https://github.com/TFF-Projects/dancelot",
+    "image": "pose_estimation.png"
   },
   {
-    "name": "My project 5",
-    "description": "Harum ipsa, odio quae quas rem sapiente. A, accusamus aliquid architecto, doloribus dolorum eius error esse, id iusto placeat possimus quia quo ratione rem veritatis. Cupiditate dolores magnam quaerat quos!",
-    "date": "May 2024",
+    "name": "XonT",
+    "description": "XonT is a tool for game developers to be able to generate 3D model assets using AI, that users can then import into game engines such as Unity. This was a hackathon project undertaken by myself, Alexander Biraben-Renard, Mohammad Abbas, Sani Abubakar and Lawan Fathullah, for the Encode Club London AI Hackathon in March 2024, where we won £1000 as the runner ups to Virtual Protocol's bounty.",
+    "date": "March 2024",
     "tags": [
-      "Tag13",
-      "Tag14",
-      "Tag15"
+      "AI",
+      "Game Development",
+      "Hackathon"
     ],
-    "url": "https://example.com/5",
-    "image": "image5.jpg"
+    "url": "https://github.com/alexanderbira/XonT",
+    "image": "encode.webp"
   }
 ]
