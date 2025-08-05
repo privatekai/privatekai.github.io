@@ -2,12 +2,11 @@
   "name": "privatekai.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "privatekai.github.io",
+  "homepage": "https://privatekai.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint ../../Desktop/alexanderbira.github.io copy",
     "deploy": "npm run build && gh-pages -d dist",
     "format": "prettier --write 'src/**/*.{ts,tsx,css}'",
     "preview": "vite preview"
