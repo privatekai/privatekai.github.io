@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
 
 /* Theme colors which apply to the whole page */
 
@@ -7,10 +7,10 @@
   --color-primary: #3640ed;
 
   /* Secondary color used for accents and highlights */
-  --color-secondary: #1ce865;
+  --color-secondary: #ac40d3;
 
   /* Background color for the entire page */
-  --color-bg: #040607;
+  --color-bg: #19192E;
 
   /* Background color for cards */
   --color-elevated: #161832;
@@ -19,13 +19,13 @@
   --color-text: #ffcbcb;
 
   /* Shadow color for cards */
-  --shadow-color: #2e0000;
+  --shadow-color: #252256;
 
   /* Text color specifically for card elements */
   --color-text-card: white;
 
   /* Font family used throughout the page */
-  --font-family: JetBrains Mono, monospace;
+  --font-family: Signika, sans-serif;
 
   /* Background image for the page. The background image should be placed under /public */
   --background-image: url("/background.svg");
