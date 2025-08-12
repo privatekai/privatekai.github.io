@@ -47,3 +47,30 @@
   font-size: 0.8rem;
   color: #999;
 }
+
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.filterButton {
+  font-family: inherit;
+  background: #eee;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.filterButton:hover {
+  background: #ddd;
+}
+
+.active {
+  background: #333;
+  color: white;
+}

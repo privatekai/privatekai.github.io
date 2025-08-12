@@ -1,12 +1,11 @@
+import React, { useEffect, useState } from "react"
 import cardStyles from "./Card.module.css"
-
-import React from "react"
 
 interface ImageFile {
   default: string
 }
 
-const imagesModule = import.meta.glob<ImageFile>("../customisation/images/*")
+const imagesModule = import.meta.glob<ImageFile>("../customisation/images/*", { eager: true })
 
 interface Project {
   name: string
@@ -19,15 +18,23 @@ interface Project {
 }
 
 export default function Card(props: Project) {
-  //load the image from its path
-  const [imageURL, setImageURL] = React.useState("")
-  imagesModule[`../customisation/images/${props.image}`]().then(image => setImageURL(image.default))
+  const [visible, setVisible] = useState(false)
+
+  const imageURL =
+    imagesModule[`../customisation/images/${props.image}`]?.default ?? ""
+
+  useEffect(() => {
+    setVisible(false)
+    const delay = props.index * 100
+    const timeout = setTimeout(() => setVisible(true), delay)
+    return () => clearTimeout(timeout)
+  }, [props.index])
+
 
   return (
     <div
-      className={`${cardStyles.card} hidden`}
-      // @ts-expect-error: "--order" is a custom property
-      style={{ "--order": props.index, zIndex: props.index }}
+      className={`${cardStyles.card} ${visible ? cardStyles.visible : cardStyles.hidden}`}
+      style={{ "--order": props.index, zIndex: props.index } as React.CSSProperties}
     >
       <div className={cardStyles.date}>{props.date}</div>
       <h2 className={cardStyles.name}>
@@ -37,7 +44,7 @@ export default function Card(props: Project) {
       </h2>
       <div className={cardStyles.imageWrapper}>
         <a href={props.url} target="_blank" rel="noreferrer">
-          <img src={imageURL} alt={props.name} className={cardStyles.image} />
+          {imageURL && <img src={imageURL} alt={props.name} className={cardStyles.image} />}
         </a>
       </div>
       <div className={cardStyles.tagsAndDescriptionWrapper}>
