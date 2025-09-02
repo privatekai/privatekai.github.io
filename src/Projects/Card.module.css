@@ -5,13 +5,13 @@
   position: relative;
   border-radius: 8px;
   padding: 1.1rem;
-  margin-right: 10px;
-  min-width: max(30%, 200px);
+  width: 100%;
   min-height: 100%;
   max-height: 80vh;
   overflow-y: auto;
   color: var(--color-text-card);
 }
+
 
 @media screen and (min-width: 768px) {
   .card {

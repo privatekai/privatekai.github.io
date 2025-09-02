@@ -29,13 +29,6 @@
   align-items: center;
 }
 
-.cards {
-  overflow-x: auto;
-  overflow-y: visible;
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 3rem 2rem 2rem 2rem;
-}
 
 .info {
   text-align: center;
@@ -48,29 +41,143 @@
   color: #999;
 }
 
-.filterBar {
+.filterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* dropdown on right */
+  gap: 0.75rem;
+  margin: 1rem 0;
+  position: relative;
+  flex-wrap: wrap;
+  max-width: 100%;
+  font-family: inherit;
+  color: #eee; /* general light text */
+}
+
+.selectedTags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin: 1rem 0;
+  flex-grow: 1;
+  justify-content: flex-start;
+  max-width: 80%;
+  min-width: 100px;
 }
 
-.filterButton {
-  font-family: inherit;
-  background: #eee;
-  border: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.2s ease;
+.tagBubble {
+  background-color: #b580c5; /* dark bubble */
+  color: #1d1d43; /* light text */
+  padding: 0.35em 0.75em;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
   font-size: 0.9rem;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.7);
+  user-select: none;
 }
 
-.filterButton:hover {
-  background: #ddd;
+.removeTagBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0;
+  color: #1d1d43;
+  transition: color 0.2s ease;
+  font-weight: 700;
 }
 
-.active {
-  background: #333;
-  color: white;
+.removeTagBtn:hover {
+  color: #fff;
 }
+
+.dropdownToggle {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #1d1d43;
+  background-color: #161832;
+  cursor: pointer;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+  white-space: nowrap;
+  color: #eee;
+  box-shadow: 0 2px 6px #3f2d45;
+}
+
+.dropdownToggle:hover,
+.dropdownToggle:focus {
+  background-color: #b580c5;
+  border-color: #eee;
+  outline: none;
+  color: #fff;
+}
+
+
+.dropdownList li {
+  list-style: none; /* remove default bullets for all li */
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.noTags {
+  padding: 0.5rem 1rem;
+  color: #888;
+  font-style: italic;
+  user-select: none;
+}
+
+.dropdownList {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.35rem;
+  background: #161832;        /* darker bg matching cards */
+  border: 1px solid #b580c5;  /* border matching card edges */
+  border-radius: 6px;
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 20;
+  min-width: 160px;
+  font-family: inherit;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 0.8);
+  list-style: none;
+  padding-left: 0;
+}
+
+.dropdownItem {
+  padding: 0.75rem 1.25rem 0.75rem 2rem; /* add left padding of 2rem */
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: #eee;
+  user-select: none;
+}
+
+.dropdownItem:hover,
+.dropdownItem:focus {
+  background-color: #1d1d43;
+  outline: none;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  padding: 3rem 2rem 2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+
+  /* This is the magic */
+  scroll-padding-left: 2rem;
+}
+
+.cards > * {
+  flex: 1 0 300px; /* min width 300px, grow evenly if few cards */
+  max-width: 100%;
+  scroll-snap-align: start; /* optional */
+}
+
