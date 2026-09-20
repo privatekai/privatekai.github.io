@@ -1,5 +1,17 @@
 [
   {
+    "name": "Junior Software Engineer @ Solidatus",
+    "description": "At Solidatus, I worked for my Industrial Placement at Solidatus, joining the Connectors team to work on the connector agents interfacing with a variety of database, data catalog and data warehouse technologies, such as Snowflake, Oracle, SSIS, Dataiku, DataStage and WebFOCUS. In this role, I learned how to jump from task to task at a fast pace, across a wide range of code repositories, directly responding to customer needs and bringing support escalation issues from bug-discovery to deployment.",
+    "date": "Mar-Sep 2026",
+    "tags": [
+      "Software Engineering",
+      "Databases",
+      "Java"
+    ],
+    "url": "https://www.solidatus.com/",
+    "image": "solidatus.png"
+  },
+  {
     "name": "SWE Intern @ Redgate",
     "description": "At Redgate Software, I worked as a Software Engineer Intern, joining Team Polymon to work on the Redgate Monitor product. Here I gained valuable professional experience in software development, and learned how to navigate a large legacy codebase, especially when debugging and solving user stories.",
     "date": "Jun-Sep 2025",
@@ -26,7 +38,7 @@
   {
     "name": "Sustainapod",
     "description": "As Website Development Lead at Sustainapod, I worked closely with the team and founders to create a website that showcases our mission to promote sustainability and environmental awareness, bringing youth into the green sector. As part of this I particicpated in the Climate Pre-Accelerator Program at Imperial in 2024.",
-    "date": "Oct 2023 - Present",
+    "date": "Oct 2023 - Jan 2026",
     "tags": [
       "Web Development",
       "Sustainability",
