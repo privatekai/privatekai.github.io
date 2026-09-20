@@ -1,73 +1,85 @@
-<svg id="visual" viewBox="0 0 540 960" width="540" height="960" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-  <g>
-    <g transform="translate(236 93)">
-      <path d="M0 -23.7L20.5 -11.8L20.5 11.8L0 23.7L-20.5 11.8L-20.5 -11.8Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="540" height="1000" preserveAspectRatio="none" viewBox="0 0 540 1000">
+    <g clip-path="url(&quot;#SvgjsClipPath2174&quot;)" fill="none">
+        <rect width="540" height="1000" x="0" y="0" fill="rgba(25, 25, 46, 1)"></rect>
+        <circle r="52.545" cx="297.6" cy="744.69" fill="url(&quot;#SvgjsLinearGradient2175&quot;)"></circle>
+        <circle r="39.38" cx="486.51" cy="38.87" fill="url(&quot;#SvgjsLinearGradient2176&quot;)"></circle>
+        <circle r="53.37" cx="138.17" cy="366.61" fill="url(&quot;#SvgjsLinearGradient2177&quot;)"></circle>
+        <circle r="23.155" cx="300.83" cy="18.23" fill="url(&quot;#SvgjsLinearGradient2178&quot;)"></circle>
+        <circle r="37.715" cx="296.01" cy="21.52" fill="url(&quot;#SvgjsLinearGradient2179&quot;)"></circle>
+        <circle r="34.35" cx="389.39" cy="98.46" fill="url(&quot;#SvgjsLinearGradient2180&quot;)"></circle>
+        <circle r="23.07" cx="96.59" cy="293.88" fill="url(&quot;#SvgjsLinearGradient2181&quot;)"></circle>
+        <circle r="27.425" cx="528.93" cy="164.8" fill="url(&quot;#SvgjsLinearGradient2182&quot;)"></circle>
+        <circle r="46.635" cx="466.32" cy="417.8" fill="url(&quot;#SvgjsLinearGradient2183&quot;)"></circle>
+        <circle r="38.165" cx="65.78" cy="959.37" fill="url(&quot;#SvgjsLinearGradient2184&quot;)"></circle>
+        <circle r="15.85" cx="465.79" cy="375.77" fill="url(&quot;#SvgjsLinearGradient2185&quot;)"></circle>
+        <circle r="38.875" cx="214.82" cy="557.05" fill="url(&quot;#SvgjsLinearGradient2186&quot;)"></circle>
+        <circle r="49.41" cx="506.26" cy="673.31" fill="url(&quot;#SvgjsLinearGradient2187&quot;)"></circle>
+        <circle r="36.91" cx="223.58" cy="629.77" fill="url(&quot;#SvgjsLinearGradient2188&quot;)"></circle>
+        <circle r="21.135" cx="210.85" cy="373.18" fill="url(&quot;#SvgjsLinearGradient2189&quot;)"></circle>
     </g>
-    <g transform="translate(26 30)">
-      <path d="M0 -21L18.2 -10.5L18.2 10.5L0 21L-18.2 10.5L-18.2 -10.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(397 27)">
-      <path d="M0 -11L9.5 -5.5L9.5 5.5L0 11L-9.5 5.5L-9.5 -5.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(238 749)">
-      <path d="M0 -15L13 -7.5L13 7.5L0 15L-13 7.5L-13 -7.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(325 179)">
-      <path d="M0 -19L16.5 -9.5L16.5 9.5L0 19L-16.5 9.5L-16.5 -9.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(76 328)">
-      <path d="M0 -11L9.5 -5.5L9.5 5.5L0 11L-9.5 5.5L-9.5 -5.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(278 451)">
-      <path d="M0 -19L16.5 -9.5L16.5 9.5L0 19L-16.5 9.5L-16.5 -9.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(380 558)">
-      <path d="M0 -12L10.4 -6L10.4 6L0 12L-10.4 6L-10.4 -6Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(474 719)">
-      <path d="M0 -15L13 -7.5L13 7.5L0 15L-13 7.5L-13 -7.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(387 620)">
-      <path d="M0 -17L14.7 -8.5L14.7 8.5L0 17L-14.7 8.5L-14.7 -8.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(369 319)">
-      <path d="M0 -11L9.5 -5.5L9.5 5.5L0 11L-9.5 5.5L-9.5 -5.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(216 212)">
-      <path d="M0 -15L13 -7.5L13 7.5L0 15L-13 7.5L-13 -7.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(36 288)">
-      <path d="M0 -20L17.3 -10L17.3 10L0 20L-17.3 10L-17.3 -10Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(10 863)">
-      <path d="M0 -15L13 -7.5L13 7.5L0 15L-13 7.5L-13 -7.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(148 531)">
-      <path d="M0 -16L13.9 -8L13.9 8L0 16L-13.9 8L-13.9 -8Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(463 827)">
-      <path d="M0 -15L13 -7.5L13 7.5L0 15L-13 7.5L-13 -7.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(494 676)">
-      <path d="M0 -16L13.9 -8L13.9 8L0 16L-13.9 8L-13.9 -8Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(155 244)">
-      <path d="M0 -16L13.9 -8L13.9 8L0 16L-13.9 8L-13.9 -8Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(211 317)">
-      <path d="M0 -19L16.5 -9.5L16.5 9.5L0 19L-16.5 9.5L-16.5 -9.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(89 238)">
-      <path d="M0 -18L15.6 -9L15.6 9L0 18L-15.6 9L-15.6 -9Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(49 672)">
-      <path d="M0 -16L13.9 -8L13.9 8L0 16L-13.9 8L-13.9 -8Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(449 431)">
-      <path d="M0 -15L13 -7.5L13 7.5L0 15L-13 7.5L-13 -7.5Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-    <g transform="translate(459 54)">
-      <path d="M0 -18L15.6 -9L15.6 9L0 18L-15.6 9L-15.6 -9Z" stroke="#297EA6" fill="none" stroke-width="0.3"></path>
-    </g>
-  </g>
+    <defs>
+        <clipPath id="SvgjsClipPath2174">
+            <rect width="540" height="1000" x="0" y="0"></rect>
+        </clipPath>
+        <linearGradient x1="192.51000000000002" y1="744.69" x2="402.69000000000005" y2="744.69" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2175">
+            <stop stop-color="#32325d" offset="0.1"></stop>
+            <stop stop-color="#424488" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="407.75" y1="38.87" x2="565.27" y2="38.87" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2176">
+            <stop stop-color="#e298de" offset="0.1"></stop>
+            <stop stop-color="#484687" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="31.429999999999993" y1="366.61" x2="244.90999999999997" y2="366.61" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2177">
+            <stop stop-color="#32325d" offset="0.1"></stop>
+            <stop stop-color="#424488" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="254.51999999999998" y1="18.23" x2="347.14" y2="18.23" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2178">
+            <stop stop-color="#e298de" offset="0.1"></stop>
+            <stop stop-color="#484687" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="220.57999999999998" y1="21.519999999999996" x2="371.44" y2="21.519999999999996" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2179">
+            <stop stop-color="#f29b7c" offset="0.1"></stop>
+            <stop stop-color="#7e6286" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="320.69" y1="98.46" x2="458.09000000000003" y2="98.46" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2180">
+            <stop stop-color="#e298de" offset="0.1"></stop>
+            <stop stop-color="#484687" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="50.45" y1="293.88" x2="142.73000000000002" y2="293.88" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2181">
+            <stop stop-color="#f29b7c" offset="0.1"></stop>
+            <stop stop-color="#7e6286" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="474.0799999999999" y1="164.8" x2="583.78" y2="164.8" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2182">
+            <stop stop-color="#f29b7c" offset="0.1"></stop>
+            <stop stop-color="#7e6286" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="373.05" y1="417.8" x2="559.59" y2="417.8" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2183">
+            <stop stop-color="#32325d" offset="0.1"></stop>
+            <stop stop-color="#424488" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="-10.549999999999997" y1="959.37" x2="142.11" y2="959.37" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2184">
+            <stop stop-color="#84b6e0" offset="0.1"></stop>
+            <stop stop-color="#464a8f" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="434.09000000000003" y1="375.77" x2="497.49" y2="375.77" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2185">
+            <stop stop-color="#e298de" offset="0.1"></stop>
+            <stop stop-color="#484687" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="137.07" y1="557.05" x2="292.57" y2="557.05" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2186">
+            <stop stop-color="#32325d" offset="0.1"></stop>
+            <stop stop-color="#424488" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="407.44" y1="673.31" x2="605.0799999999999" y2="673.31" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2187">
+            <stop stop-color="#e298de" offset="0.1"></stop>
+            <stop stop-color="#484687" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="149.76000000000002" y1="629.77" x2="297.4" y2="629.77" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2188">
+            <stop stop-color="#ab3c51" offset="0.1"></stop>
+            <stop stop-color="#4f4484" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="168.57999999999998" y1="373.18" x2="253.12" y2="373.18" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2189">
+            <stop stop-color="#32325d" offset="0.1"></stop>
+            <stop stop-color="#424488" offset="0.9"></stop>
+        </linearGradient>
+    </defs>
 </svg>
